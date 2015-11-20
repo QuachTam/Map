@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SWRevealViewController.h"
 
 @interface MDLeftViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITableView *tbView;
 
 @end

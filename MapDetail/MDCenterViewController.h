@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface MDCenterViewController : UIViewController
+@interface MDCenterViewController : BaseViewController
 
 @end
