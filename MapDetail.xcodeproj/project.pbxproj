@@ -10,6 +10,10 @@
 		7E0F84881854A9D10ECC582D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 290B0E8180A108F7538E3641 /* libPods.a */; };
 		98B014F8A928CECAF72EE9A3 /* libPods-MapDetail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECFB3B2F6BA35648CE34CE8 /* libPods-MapDetail.a */; };
 		FB016ADC1BFC10E900012BE4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB016ADB1BFC10E900012BE4 /* BaseViewController.m */; };
+		FB0901771BFED0D200E85167 /* UITableContract.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0901731BFED0D200E85167 /* UITableContract.png */; };
+		FB0901781BFED0D200E85167 /* UITableContract@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0901741BFED0D200E85167 /* UITableContract@2x.png */; };
+		FB0901791BFED0D200E85167 /* UITableExpand.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0901751BFED0D200E85167 /* UITableExpand.png */; };
+		FB09017A1BFED0D200E85167 /* UITableExpand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0901761BFED0D200E85167 /* UITableExpand@2x.png */; };
 		FB49F2141BFC55A6007E102A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB49F2131BFC55A6007E102A /* CoreLocation.framework */; };
 		FB49F2181BFC55D6007E102A /* WriteLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB49F2161BFC55D6007E102A /* WriteLineViewController.m */; };
 		FB49F2191BFC55D6007E102A /* WriteLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB49F2171BFC55D6007E102A /* WriteLineViewController.xib */; };
@@ -46,6 +50,7 @@
 		FB8B59C41BFD8CD300C1F370 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8B59B71BFD8CD300C1F370 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FB8B59C51BFD8CD300C1F370 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8B59B91BFD8CD300C1F370 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FB8B59C61BFD8CD300C1F370 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8B59BD1BFD8CD300C1F370 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FBEC26F01BFF0382001566ED /* MapInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEC26EF1BFF0382001566ED /* MapInfoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +70,10 @@
 		E1BED0B52CAA51554B8C62BE /* Pods-MapDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapDetail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapDetail/Pods-MapDetail.debug.xcconfig"; sourceTree = "<group>"; };
 		FB016ADA1BFC10E900012BE4 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		FB016ADB1BFC10E900012BE4 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FB0901731BFED0D200E85167 /* UITableContract.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UITableContract.png; sourceTree = "<group>"; };
+		FB0901741BFED0D200E85167 /* UITableContract@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITableContract@2x.png"; sourceTree = "<group>"; };
+		FB0901751BFED0D200E85167 /* UITableExpand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UITableExpand.png; sourceTree = "<group>"; };
+		FB0901761BFED0D200E85167 /* UITableExpand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UITableExpand@2x.png"; sourceTree = "<group>"; };
 		FB49F2131BFC55A6007E102A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FB49F2151BFC55D5007E102A /* WriteLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteLineViewController.h; sourceTree = "<group>"; };
 		FB49F2161BFC55D6007E102A /* WriteLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteLineViewController.m; sourceTree = "<group>"; };
@@ -128,6 +137,8 @@
 		FB8B59BA1BFD8CD300C1F370 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
 		FB8B59BC1BFD8CD300C1F370 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		FB8B59BD1BFD8CD300C1F370 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FBEC26EE1BFF0381001566ED /* MapInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapInfoModel.h; sourceTree = "<group>"; };
+		FBEC26EF1BFF0382001566ED /* MapInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapInfoModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +186,17 @@
 				2ECFB3B2F6BA35648CE34CE8 /* libPods-MapDetail.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB0901721BFED0D200E85167 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FB0901731BFED0D200E85167 /* UITableContract.png */,
+				FB0901741BFED0D200E85167 /* UITableContract@2x.png */,
+				FB0901751BFED0D200E85167 /* UITableExpand.png */,
+				FB0901761BFED0D200E85167 /* UITableExpand@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		FB49F21A1BFC55E9007E102A /* WriteLocationViewController */ = {
@@ -234,6 +256,7 @@
 		FB7B75FB1BF038BB00383BB4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FB0901721BFED0D200E85167 /* images */,
 				FB884F101BF1B28800ED739A /* reveal-icon.png */,
 				FB884F111BF1B28800ED739A /* reveal-icon@2x.png */,
 				FB884F0D1BF1AE8400ED739A /* MapDetail-Prefix.pch */,
@@ -311,6 +334,8 @@
 			children = (
 				FB8B599F1BFD8B9700C1F370 /* LRouteController.h */,
 				FB8B59A01BFD8B9700C1F370 /* LRouteController.m */,
+				FBEC26EE1BFF0381001566ED /* MapInfoModel.h */,
+				FBEC26EF1BFF0382001566ED /* MapInfoModel.m */,
 			);
 			path = LRouteController;
 			sourceTree = "<group>";
@@ -438,10 +463,14 @@
 				FB884F0F1BF1AFE000ED739A /* MainViewController.xib in Resources */,
 				FB49F2191BFC55D6007E102A /* WriteLineViewController.xib in Resources */,
 				FB7B760E1BF038BB00383BB4 /* LaunchScreen.storyboard in Resources */,
+				FB0901771BFED0D200E85167 /* UITableContract.png in Resources */,
 				FB7B763E1BF03F0B00383BB4 /* MDRightViewController.xib in Resources */,
 				FB884F131BF1B28800ED739A /* reveal-icon@2x.png in Resources */,
+				FB0901781BFED0D200E85167 /* UITableContract@2x.png in Resources */,
+				FB09017A1BFED0D200E85167 /* UITableExpand@2x.png in Resources */,
 				FB7B76311BF03EDB00383BB4 /* MDLeftViewController.xib in Resources */,
 				FB884F121BF1B28800ED739A /* reveal-icon.png in Resources */,
+				FB0901791BFED0D200E85167 /* UITableExpand.png in Resources */,
 				FB7B760B1BF038BB00383BB4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +549,7 @@
 				FB7B76261BF039C400383BB4 /* SWRevealViewController.m in Sources */,
 				FB8B59C61BFD8CD300C1F370 /* Reachability.m in Sources */,
 				FB7B762C1BF03C0A00383BB4 /* CustomAnimationController.m in Sources */,
+				FBEC26F01BFF0382001566ED /* MapInfoModel.m in Sources */,
 				FB8B59BE1BFD8CD300C1F370 /* ASIAuthenticationDialog.m in Sources */,
 				FB7B76381BF03EFB00383BB4 /* MDCenterViewController.m in Sources */,
 				FB8B59C31BFD8CD300C1F370 /* ASIHTTPRequest.m in Sources */,

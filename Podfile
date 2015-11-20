@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, ‘7.0’
+platform :ios, '7.0'
 inhibit_all_warnings!
 
 xcodeproj 'MapDetail'
@@ -11,6 +11,7 @@ pod 'PureLayout', '~> 2.0'
 pod 'MBProgressHUD', '~> 0.4'
 pod 'MBLocationManager'
 pod 'GoogleMaps'
+pod 'REMenu'
 end
 
 post_install do |installer|

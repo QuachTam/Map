@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "SWRevealViewController.h"
+#import <REMenu/REMenu.h>
 
 @interface BaseViewController : UIViewController
 - (void)setLeftButtonNavicationBar;
 - (void)setRightButtonNavicationBar;
+- (void)setViewNavicationBar;
+- (void)actionTouchMenu:(NSString *)text;
 @end

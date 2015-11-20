@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EB1AF9DC1A6F63B504011727'
-               BlueprintName = 'MBLocationManager'
+               BlueprintIdentifier = '369E6CA51F410DFEA34FC744'
+               BlueprintName = 'REMenu'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libMBLocationManager.a'>
+               BuildableName = 'libREMenu.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
