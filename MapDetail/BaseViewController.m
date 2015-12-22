@@ -106,8 +106,108 @@
                                                           action:^(REMenuItem *item) {
                                                               [self actionChangeTitle:item];
                                                           }];
+    REMenuItem *activityItem1 = [[REMenuItem alloc] initWithTitle:@"Hybrid"
+                                                        subtitle:nil
+                                                           image:[UIImage imageNamed:@"Icon_Activity"]
+                                                highlightedImage:nil
+                                                          action:^(REMenuItem *item) {
+                                                              [self actionChangeTitle:item];
+                                                          }];
+    REMenuItem *activityItem2 = [[REMenuItem alloc] initWithTitle:@"Hybrid"
+                                                        subtitle:nil
+                                                           image:[UIImage imageNamed:@"Icon_Activity"]
+                                                highlightedImage:nil
+                                                          action:^(REMenuItem *item) {
+                                                              [self actionChangeTitle:item];
+                                                          }];
+    REMenuItem *activityItem3 = [[REMenuItem alloc] initWithTitle:@"Hybrid"
+                                                        subtitle:nil
+                                                           image:[UIImage imageNamed:@"Icon_Activity"]
+                                                highlightedImage:nil
+                                                          action:^(REMenuItem *item) {
+                                                              [self actionChangeTitle:item];
+                                                          }];
+    REMenuItem *activityItem4 = [[REMenuItem alloc] initWithTitle:@"Hybrid"
+                                                        subtitle:nil
+                                                           image:[UIImage imageNamed:@"Icon_Activity"]
+                                                highlightedImage:nil
+                                                          action:^(REMenuItem *item) {
+                                                              [self actionChangeTitle:item];
+                                                          }];
+    REMenuItem *activityItem5= [[REMenuItem alloc] initWithTitle:@"Hybrid"
+                                                        subtitle:nil
+                                                           image:[UIImage imageNamed:@"Icon_Activity"]
+                                                highlightedImage:nil
+                                                          action:^(REMenuItem *item) {
+                                                              [self actionChangeTitle:item];
+                                                          }];
+    REMenuItem *activityItem6 = [[REMenuItem alloc] initWithTitle:@"Hybrid"
+                                                        subtitle:nil
+                                                           image:[UIImage imageNamed:@"Icon_Activity"]
+                                                highlightedImage:nil
+                                                          action:^(REMenuItem *item) {
+                                                              [self actionChangeTitle:item];
+                                                          }];
+    REMenuItem *activityItem7 = [[REMenuItem alloc] initWithTitle:@"Hybrid"
+                                                        subtitle:nil
+                                                           image:[UIImage imageNamed:@"Icon_Activity"]
+                                                highlightedImage:nil
+                                                          action:^(REMenuItem *item) {
+                                                              [self actionChangeTitle:item];
+                                                          }];
+    REMenuItem *activityItem8 = [[REMenuItem alloc] initWithTitle:@"Hybrid"
+                                                         subtitle:nil
+                                                            image:[UIImage imageNamed:@"Icon_Activity"]
+                                                 highlightedImage:nil
+                                                           action:^(REMenuItem *item) {
+                                                               [self actionChangeTitle:item];
+                                                           }];
+    REMenuItem *activityItem9 = [[REMenuItem alloc] initWithTitle:@"Hybrid"
+                                                         subtitle:nil
+                                                            image:[UIImage imageNamed:@"Icon_Activity"]
+                                                 highlightedImage:nil
+                                                           action:^(REMenuItem *item) {
+                                                               [self actionChangeTitle:item];
+                                                           }];
+    REMenuItem *activityItem10 = [[REMenuItem alloc] initWithTitle:@"Hybrid"
+                                                         subtitle:nil
+                                                            image:[UIImage imageNamed:@"Icon_Activity"]
+                                                 highlightedImage:nil
+                                                           action:^(REMenuItem *item) {
+                                                               [self actionChangeTitle:item];
+                                                           }];
+    REMenuItem *activityItem11 = [[REMenuItem alloc] initWithTitle:@"Hybrid"
+                                                         subtitle:nil
+                                                            image:[UIImage imageNamed:@"Icon_Activity"]
+                                                 highlightedImage:nil
+                                                           action:^(REMenuItem *item) {
+                                                               [self actionChangeTitle:item];
+                                                           }];
+    REMenuItem *activityItem12 = [[REMenuItem alloc] initWithTitle:@"Hybrid"
+                                                          subtitle:nil
+                                                             image:[UIImage imageNamed:@"Icon_Activity"]
+                                                  highlightedImage:nil
+                                                            action:^(REMenuItem *item) {
+                                                                [self actionChangeTitle:item];
+                                                            }];
+    REMenuItem *activityItem13 = [[REMenuItem alloc] initWithTitle:@"Hybrid"
+                                                          subtitle:nil
+                                                             image:[UIImage imageNamed:@"Icon_Activity"]
+                                                  highlightedImage:nil
+                                                            action:^(REMenuItem *item) {
+                                                                [self actionChangeTitle:item];
+                                                            }];
+    REMenuItem *activityItem14 = [[REMenuItem alloc] initWithTitle:@"End"
+                                                          subtitle:nil
+                                                             image:[UIImage imageNamed:@"Icon_Activity"]
+                                                  highlightedImage:nil
+                                                            action:^(REMenuItem *item) {
+                                                                [self actionChangeTitle:item];
+                                                            }];
     
-    self.menu = [[REMenu alloc] initWithItems:@[normalItem, homeItem, exploreItem, activityItem]];
+    
+    
+    self.menu = [[REMenu alloc] initWithItems:@[normalItem, homeItem, exploreItem, activityItem, activityItem1, activityItem2, activityItem3, activityItem4, activityItem5, activityItem6, activityItem7, activityItem8, activityItem9, activityItem10, activityItem11, activityItem12, activityItem13, activityItem14]];
 }
 
 - (void)actionChangeTitle:(REMenuItem *)item{
